@@ -1,1 +1,60 @@
-body
+body {
+    background-image: url(/assets/img/nieve_2.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul.nav {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 15px !important;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.nav {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-color: white !important;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.nav-bar:hover {
+    background-color: rgb(223, 223, 223);
+}
