@@ -1,0 +1,74 @@
+body {
+    background-image: url(/assets/img/nieve_2.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+
+
+.nav {
+    display: flex;
+    width: fit-content;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+}
+
+.intro {
+    display: flex;
+}
+
+.bx_21 {
+    margin: 20px 20px 20px 20px;
+}
+
+.bx_1 {
+    margin: auto;
+    height: 70px;
+    background-color: #CCCCCC;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+#b_211 {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: #CCCCCC;
+}
+
+#b_212 {
+    width: 300px;
+    height: 150px;
+    margin: 20px 0px 10px 0px;
+    background-color: #CCCCCC;
+}
+
+#b_213 {
+    width: 300px;
+    height: 100px;
+    margin: 20px 0px 10px 0px;
+    background-color: #CCCCCC;
+}
+
+.bx_22 {
+    width: 300px; 
+}
+
+#b_221 {
+    width: 300px;
+    height: 425px;
+    margin: 0px 0px 0px 20px;
+    background-color: #CCCCCC;
+}

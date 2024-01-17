@@ -1,0 +1,184 @@
+body {
+    background-image: url(/assets/img/nieve_2.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    width: fit-content;
+    background-color: white;
+    list-style: none;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-left: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-radius: 100px;
+    padding: 10px 10px 10px 20px;
+}
+
+.nav li {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    padding: 10px 20px 10px 10px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    background-color: #CCCCCC;
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 60px;
+    padding: 10px 20px 10px 20px;
+}
+
+.bx_211 {
+    background-color: #CCCCCC;
+}
+
+.bx_221 {
+    background-color: #CCCCCC;
+}
+
+#b_1 {
+    flex: 1;
+}
+
+#b_2 {
+    flex: 1;
+}
+
+#b_3 {
+    flex: 1;
+}
+
+#b_211 {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: #CCCCCC;
+}
+
+#b_212 {
+    width: 300px;
+    height: 150px;
+    margin: 20px 0px 10px 0px;
+}
+
+#b_212 h1 {
+    font-size: 70px;
+    font-family: ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace !important;
+    margin-left: 10px;
+    background-color: #CCCCCC;
+}
+
+#b_213 {
+    width: 300px;
+    height: 100px;
+    margin: 20px 0px 10px 0px;
+    font-size: 40px;
+    font-family: ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace !important;
+    margin-left: 10px;
+    background-color: #CCCCCC;
+}
+
+.bx_22 {
+    flex: 1 1 25%;
+    flex-direction: column;   
+}
+
+#b_221 {
+    width: 800px;
+    height: 425px;
+    margin: 20px 0px 0px 140px;
+    font-size: 30px;
+    font-family: ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace !important;
+    background-color: #CCCCCC;
+}
+
+#b_222 {
+    width: 800px;
+    height: 100px;
+    margin: 40px 0px 0px 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cv_down {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.cv_down_1 {
+    width: 150px;
+    height: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    font-size: 40px;
+    font-family: ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace!important;
+}
+
+.cv_down_1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.cv_down_2 {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    justify-self: end;
+    border-bottom-left-radius: 20px;
+}
+
+.cv_down_3 {
+    width: 130px;
+    height: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    justify-self: end;
+    font-size: 25px;
+    font-family: ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace!important;
+}
+
+.cv_down_3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.body_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
