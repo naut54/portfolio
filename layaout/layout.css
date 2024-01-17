@@ -22,12 +22,17 @@ body {
 
 .intro {
     display: flex;
-    width: 70vw;
-    margin-top: 20px;
-    justify-content: space-around;
-    align-items: end;
-    align-content: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: 30px;
     border: 2px solid;
+    padding: 10px 20px 10px 20px;
 }
 
 .bx_1 {
@@ -51,11 +56,6 @@ body {
     flex: 1;
 }
 
-.bx_21 {
-    flex: 1 1 25%;
-    flex-direction: column;
-}
-
 #b_211 {
     width: 300px;
     height: 300px;
@@ -76,21 +76,22 @@ body {
     margin: 20px 0px 10px 0px;
     background-color: #CCCCCC;
 }
+
 .bx_22 {
     flex: 1 1 25%;
-    flex-direction: column;
+    flex-direction: column;   
 }
 
 #b_221 {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
+    width: 800px;
+    height: 425px;
+    margin: 0px 0px 0px 140px;
     background-color: #CCCCCC;
 }
 
 #b_222 {
-    width: 300px;
-    height: 150px;
-    margin: 20px 0px 10px 0px;
+    width: 800px;
+    height: 100px;
+    margin: 40px 0px 0px 140px;
     background-color: #CCCCCC;
 }
