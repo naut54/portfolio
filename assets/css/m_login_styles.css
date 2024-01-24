@@ -3,12 +3,13 @@ body {
     display: flex;
     justify-content: center;
     font-family: ui-sans-serif, system-ui;
+    overflow: hidden;
 }
 
 .card {
     width: fit-content;
     height: 800px;
-    margin: 20% 0% 0% 0%;
+    margin: 5% 0% 0% 0%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
