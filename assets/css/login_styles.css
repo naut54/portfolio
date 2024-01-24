@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-family: ui-sans-serif, system-ui;
+    overflow: hidden;
+}
+
+.card {
+    width: 475px;
+    height: 850px;
+    margin: 20% 0% 0% 0%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+}
+
+input {
+    width: 75%;
+    padding: 2% 0% 2% 2%;
+    margin: 2% 0% 0% 0%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+label {
+    padding: 2% 0% 2% 2%;
+    margin: 2% 0% 0% 0%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.ttl_1 {
+    height: 10%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.sbttl_1 {
+    font-size: 20px;
+    font-family: ui-sans-serif, system-ui;
+    font-weight: 400;
+    color: #555555;
+}
+
+.box_1 {
+    display: flex;
+    margin: 5% 0% 0% 0%;
+
+}
+
+.bx_1 {
+    flex: 1 1 25%;
+}
+
+.bx_2 {
+    flex: 1 1 25%;
+}
+
+/* input[type="select"] {
+    padding: 2% 0% 2% 2%;
+    margin: 2% 0% 0% 0%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+} */
+
+.selected {
+    width: 75%;
+    padding: 2% 0% 2% 2%;
+    margin: 2% 0% 0% 0%;
+    overflow: hidden;
+    background: url(new_arrow.png) no-repeat right white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box_2 button {
+    width: 70%;
+    padding: 2% 0% 2% 2%;
+    margin: 10% 0% 0% 0%;
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
