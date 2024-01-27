@@ -1,7 +1,3 @@
-function goBack() {
-    window.history.back();
-}
-
 import { sql } from "@vercel/postgres";
 
 export default async function Cart({ params }) {

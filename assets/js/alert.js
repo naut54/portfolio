@@ -6,6 +6,10 @@ function signIn1() {
     swal("¡Perfecto!", "¡Te has registrado!", "success");
 }
 
+function goBack() {
+    window.history.back();
+}
+
 function signIn2() {
     swal({
         content: {
