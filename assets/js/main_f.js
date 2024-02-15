@@ -13,3 +13,17 @@ export default async function Cart({ params }) {
     </div>
   );
 }
+
+function validateForm(formId) {
+  var form = document.getElementById(formId);
+  var inputs = form.querySelectorAll('input, textarea');
+
+  for (var i = 0; i < inputs.length; i++) {
+      if (inputs[i].value.trim() === '') {
+          swal('Faltan algunas cosas', 'Por favor, completa todos los campos.');
+          return false;
+      }
+  }
+
+  return true;
+}
